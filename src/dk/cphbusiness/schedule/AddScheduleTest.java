@@ -32,7 +32,7 @@ public class AddScheduleTest {
     public void tearDown() {
     }
 
-    @Test
+ /*   @Test
     public void testAddScheduleSuccessfully() throws Exception {
         ScheduleDetail schedule = new ScheduleDetail(1, new Date(), new Date(), null);
         manager.addSchedule(schedule);
@@ -48,5 +48,5 @@ public class AddScheduleTest {
     
     public void testAddScheduleFailure() {
     
-    }
+    }*/
 }

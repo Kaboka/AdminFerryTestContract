@@ -35,9 +35,9 @@ public class AssignSchedule {
     @After
     public void tearDown() {
     }
-    
-    @Test
-    public void assignScheduleSucess() throws Exception{
+   
+/*    @Test
+    public void testAssignScheduleSucess() throws Exception{
         int id = 1;
         Set<DepartureDetail> departures = new HashSet<DepartureDetail>();
         ScheduleDetail scheduleDetail = new ScheduleDetail(id, new Date(), new Date(), departures);
@@ -49,5 +49,5 @@ public class AssignSchedule {
                 tempSchedule = s;
         }
         Assert.assertEquals(scheduleDetail, tempSchedule);
-    }
+    }*/
 }
